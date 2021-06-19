@@ -64,7 +64,7 @@ body {
 .profile-container .box-image {
     background-image: url("../images/bg-pattern-card.svg");
     background-repeat: no-repeat;
-    height: 15vh;
+    height: 18vh;
     background-size: cover;
 }
 
@@ -75,9 +75,22 @@ body {
     align-items: center;
 }
 
+.profile-container .profile-image {
+    background-image: url("../images/image-victor.jpg");
+    height: 17vh;
+    width: 8vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 70px;
+    left: 35%;
+    border-radius:50%;
+    border: 5px solid white;
+
+}
 
 .profile-container .profile-status {
-    border-top: 1px solid #949191;
+    border-top: 1px solid lightgray;
 }
 
 .profile-container .profile-status h2 {
