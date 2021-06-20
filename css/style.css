@@ -61,6 +61,7 @@ body {
     height: auto;
 }
 
+
 .profile-container .box-image {
     background-image: url("../images/bg-pattern-card.svg");
     background-repeat: no-repeat;
@@ -93,8 +94,8 @@ body {
     text-align: center;
 }
 .profile-container .box-info p {
-    padding-top: 10px;
-    padding-bottom: 30px
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .profile-container .profile-status {
@@ -112,4 +113,6 @@ body {
     text-align: center;
     padding-bottom: 30px;
 }
-
+span {
+    font-weight: 400;
+}
