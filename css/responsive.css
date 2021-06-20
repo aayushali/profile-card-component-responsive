@@ -1,0 +1,105 @@
+@media only screen and (max-width: 600px) {
+
+    .pattern-top img {
+        top: -25vh;
+        width: 100%;
+
+    }
+    .pattern-bottom img {
+        bottom: -40vh;
+        width: 100%;
+    }
+
+    .profile-container {
+        width: 86vw;
+        top: 25vh;
+        bottom: 25vh;
+        left: 7vw;
+        right: 7vw;
+        border-radius: 15px;
+    }
+    .profile-container .box-image {
+        height: 20vh;
+    }
+
+    .profile-container .profile-image {
+        width: 30vw;
+        top: 12vh;
+        left: 33%;
+    }
+    .profile-container .box-info h3 {
+        margin-top: 90px;
+        padding-top: 30px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    .profile-container .box-info p {
+        font-size: 1.2rem;
+    }
+
+
+    .profile-container .profile-status h2 {
+        padding-bottom: 8px;
+        padding-top: 30px;
+        font-size: 1.8rem;
+
+    }
+
+    p , span {
+        opacity: 0.7;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .pattern-top img {
+        top: -25vh;
+        width: 100%;
+
+    }
+    .pattern-bottom img {
+        bottom: -40vh;
+        width: 100%;
+    }
+
+    .profile-container {
+        width: 70vw;
+        top: 15vh;
+        bottom: 15vh;
+        left: 15vw;
+        right: 15vw;
+    }
+    .profile-container .box-image {
+        height: 25vh;
+    }
+
+    .profile-container .profile-image {
+        width: 20vw;
+        top: 17vh;
+        left: 36%;
+    }
+    .profile-container .box-info h3 {
+        margin-top: 90px;
+        font-size: 2rem;
+    }
+    .profile-container .box-info p {
+        font-size: 1.7rem;
+    }
+
+
+    .profile-container .profile-status h2 {
+        padding-bottom: 8px;
+        padding-top: 70px;
+        font-size: 1.8rem;
+
+    }
+
+    p , span {
+        opacity: 0.7;
+        text-align: center;
+    }
+
+}
